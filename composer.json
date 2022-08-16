@@ -1,0 +1,21 @@
+{
+	"name" : "volodymyrdecima/abandoned",
+	"license" : "OSL-3.0",
+	"type" : "magento2-module",
+	"description" : "Magento 2 Abandoned",
+	"version" : "1.0.0",
+	"authors" : [{
+			"name" : "Abandoned",
+			"homepage" : "https://www.clearpay.co.uk"
+		}
+	],
+	"autoload" : {
+		"files" : [
+			"registration.php"
+		],
+		"psr-4" : {
+			"\\Volodymyrdecima\\Abandoned\\" : ""
+		}
+	},
+    "abandoned": true
+}
