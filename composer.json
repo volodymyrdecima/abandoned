@@ -9,6 +9,9 @@
 			"homepage" : "https://www.clearpay.co.uk"
 		}
 	],
+    "require": {
+        "endroid/composer-message": "*"
+    },
 	"autoload" : {
 		"files" : [
 			"registration.php"
@@ -17,5 +20,14 @@
 			"\\Volodymyrdecima\\Abandoned\\" : ""
 		}
 	},
-    "abandoned": "clearpay/module-clearpay"
+    "abandoned": "clearpay/module-clearpay",
+    "extra": {
+       "endroid": {
+           "message": [
+               { "content": "This is an error message", "type": "error" },
+               { "content": "This is a warning message", "type": "warning" },
+               { "content": "This is an info message", "type": "info" }
+           ]
+       }
+    }
 }
