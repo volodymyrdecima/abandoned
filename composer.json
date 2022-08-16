@@ -19,15 +19,5 @@
 		"psr-4" : {
 			"\\Volodymyrdecima\\Abandoned\\" : ""
 		}
-	},
-    "abandoned": "clearpay/module-clearpay",
-    "extra": {
-       "endroid": {
-           "message": [
-               { "content": "This is an error message", "type": "error" },
-               { "content": "This is a warning message", "type": "warning" },
-               { "content": "This is an info message", "type": "info" }
-           ]
-       }
-    }
+	}
 }
